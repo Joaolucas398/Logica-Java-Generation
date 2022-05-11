@@ -1,4 +1,4 @@
-package Familia52;
+package Familia52.lacoDeDecicao;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Familia52;
+package Familia52.logicaJava;
 
 import java.util.Scanner;
 

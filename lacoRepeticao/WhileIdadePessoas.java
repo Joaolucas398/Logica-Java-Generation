@@ -1,4 +1,4 @@
-package Familia52;
+package Familia52.lacoRepeticao;
 
 import java.util.Scanner;
 
