@@ -3,14 +3,23 @@ package Familia52.poo.heranca;
 public class Animal {
 	
 	private String nomeAnimal;
-	private String idadeAnimal;
-	private String somAnimal;
+	private int idadeAnimal;
 	
-	public Animal(String nomeAnimal,String idadeAnimal, String somAnimal) {
+	
+	
+	
+	public Animal(String nomeAnimal,int idadeAnimal) {
 		super();
 		this.nomeAnimal = nomeAnimal;
 		this.idadeAnimal = idadeAnimal;
-		this.somAnimal = somAnimal;
+		
+		
+		
+	}
+	
+	public void somAnimal() {
+		
+		System.out.println("AAAA AAAAA AAAAAA");
 		
 	}
 	
@@ -23,24 +32,16 @@ public class Animal {
 		this.nomeAnimal = nomeAnimal;
 	}
 
-	public String getIdadeAnimal() {
+	public int getIdadeAnimal() {
 		return idadeAnimal;
 	}
 
-	public void setIdadeAnimal(String idadeAnimal) {
+	public void setIdadeAnimal(int idadeAnimal) {
 		this.idadeAnimal = idadeAnimal;
 	}
 
 
-	public String getSomAnimal() {
-		return somAnimal;
-	}
-
-
-	public void setSomAnimal(String somAnimal) {
-		this.somAnimal = somAnimal;
-	}
-
+	
 
 
 }

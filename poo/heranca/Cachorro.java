@@ -3,27 +3,22 @@ package Familia52.poo.heranca;
 public class Cachorro extends Animal {
 	
 	
-	private String acaoAnimal;
 	
-	
-	public Cachorro(String nomeAnimal,String idadeAnimal, String somAnimal, String acaoAnimal) {
+	public Cachorro(String nomeAnimal,int idadeAnimal) {
 		
-		super(nomeAnimal,idadeAnimal,somAnimal);
-		this.acaoAnimal = acaoAnimal;
+		super(nomeAnimal,idadeAnimal);
 		
 	}
 	
-
+	public void somAnimal() {
+		System.out.println(this.getNomeAnimal()+ " AU AU AUUUU !!!");
+	}
 	
-	
-
-	public String getAcaoAnimal() {
-		return acaoAnimal;
+	public void acaoAnimal() {
+		System.out.println("correeendooo... !!!");
+		
 	}
 
-	public void setAcaoAnimal(String acaoAnimal) {
-		this.acaoAnimal = acaoAnimal;
-	}
 
 	
 }

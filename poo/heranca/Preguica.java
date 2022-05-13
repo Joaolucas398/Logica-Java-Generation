@@ -2,27 +2,26 @@ package Familia52.poo.heranca;
 
 public class Preguica extends Animal{
 	
+
 	
-	private String acaoAnimal;
 	
-	
-	public Preguica (String nomeAnimal,String idadeAnimal, String somAnimal, String acaoAnimal) {
+	public Preguica (String nomeAnimal,int idadeAnimal) {
 		
-		super(nomeAnimal,idadeAnimal,somAnimal);
-		this.acaoAnimal = acaoAnimal;
+		super(nomeAnimal,idadeAnimal);
+	
 		
 	}
 	
+	
 
-	public String getAcaoAnimal() {
-		return acaoAnimal;
-	}
-
-
-	public void setAcaoAnimal(String acaoAnimal) {
-		this.acaoAnimal = acaoAnimal;
+	public void somAnimal() {
+		System.out.println(this.getNomeAnimal()+ "AAA... AAAA.. AAA... !!!");
 	}
 	
+	public void acaoAnimal() {
+		System.out.println("Zzzzzz...!!!");
+		
+	}
 	
 
 }
