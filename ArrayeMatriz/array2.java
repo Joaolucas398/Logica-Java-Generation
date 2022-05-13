@@ -1,4 +1,4 @@
-package Familia52.Arrays;
+package Familia52.ArrayeMatriz;
 
 import java.util.Scanner;
 

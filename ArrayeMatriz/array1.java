@@ -1,4 +1,4 @@
-package Familia52.Arrays;
+package Familia52.ArrayeMatriz;
 
 public class array1 {
 

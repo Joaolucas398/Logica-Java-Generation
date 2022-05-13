@@ -1,8 +1,8 @@
-package Familia52.Arrays;
+package Familia52.ArrayeMatriz;
 
 import java.util.Scanner;
 
-public class array4 {
+public class Matriz4 {
 
 	public static void main(String[] args) {
 		
