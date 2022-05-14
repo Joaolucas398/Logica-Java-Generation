@@ -13,7 +13,7 @@ public class Preguica extends Animal{
 	}
 	
 	
-
+	@Override
 	public void somAnimal() {
 		System.out.println(this.getNomeAnimal()+ "AAA... AAAA.. AAA... !!!");
 	}

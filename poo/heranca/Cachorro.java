@@ -9,7 +9,7 @@ public class Cachorro extends Animal {
 		super(nomeAnimal,idadeAnimal);
 		
 	}
-	
+	@Override
 	public void somAnimal() {
 		System.out.println(this.getNomeAnimal()+ " AU AU AUUUU !!!");
 	}

@@ -12,7 +12,7 @@ public class Cavalo extends Animal {
 		
 	}
 	
-	
+	@Override
 	public void somAnimal() {
 		System.out.println(this.getNomeAnimal()+ " BRAASS BRASS...!!!");
 	}

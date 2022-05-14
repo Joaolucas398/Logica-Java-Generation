@@ -19,7 +19,7 @@ public class Animal {
 	
 	public void somAnimal() {
 		
-		System.out.println("AAAA AAAAA AAAAAA");
+		System.out.println();
 		
 	}
 	
