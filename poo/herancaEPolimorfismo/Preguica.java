@@ -1,4 +1,4 @@
-package Familia52.poo.heranca;
+package Familia52.poo.herancaEPolimorfismo;
 
 public class Preguica extends Animal{
 	
